@@ -41,11 +41,10 @@ function Home() {
             title="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
             price={1045.94}
             alt="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
-            image="https://m.media-amazon.com/images/I/81blwMhVV8L._AC_UY218_.jpg"
             rating={4}
           />
           <Product
-            title="Apple Watch Series 4 (GPS, 44MM) - Space Gray Aluminum Case "
+            title="Apple Watch Series 4 (GPS, 44MM) - Space Gray Aluminum Case  "
             price={329.5}
             image="https://m.media-amazon.com/images/I/517IoYaKCmL._AC_UY218_.jpg"
             alt="Apple Watch Series 4 (GPS, 44MM) - Space Gray Aluminum Case with Black Sport Band (Renewed)"
