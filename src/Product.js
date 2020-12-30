@@ -1,25 +1,28 @@
 import React from "react";
 import "./Product.css";
 import StarRateIcon from "@material-ui/icons/StarRate";
-import { userStateValue } from "./StateProvider";
+import { useStateValue } from "./StateProvider";
 
 function Product({ title, alt, image, price, rating }) {
-  const [state, dispatch] = userStateValue();
+  const [{ basket }, dispatch] = useStateValue();
+  console.log("Basket: ", basket);
 
   const addToBasket = () => {
     //dispatch the item into the data layer
-    
+
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
         // id: id,
         title: title,
+        alt: alt,
         image: image,
         price: price,
         rating: rating,
       },
     });
   };
+
   return (
     <div className="product">
       <div className="product__info">

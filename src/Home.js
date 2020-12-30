@@ -41,6 +41,7 @@ function Home() {
             title="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
             price={1045.94}
             alt="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
+            image="https://m.media-amazon.com/images/I/81blwMhVV8L._AC_UY218_.jpg"
             rating={4}
           />
           <Product
