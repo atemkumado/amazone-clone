@@ -5,8 +5,8 @@ import CurrencyFormat from "react-currency-format";
 
 function Subtotal() {
   const [{ basket }] = useStateValue();
-  let amountOfBasket = basket.length;
-  let getTotalPrice = () => {
+  const amountOfBasket = basket.length;
+  const getTotalPrice = () => {
     let total = 0;
     for (let item in basket) {
       total += basket[item].price;
