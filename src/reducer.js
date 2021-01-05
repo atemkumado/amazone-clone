@@ -1,6 +1,8 @@
 export const initialState = {
   basket: [],
 };
+export const getBasketTotal = (basket) =>
+  basket?.reducer((amount,item) => item.price + amount, 0)
 
 const reducer = (state, action) => {
   console.log(action);
