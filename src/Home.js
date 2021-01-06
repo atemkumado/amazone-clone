@@ -7,6 +7,7 @@ function Home() {
     <div className="home">
       <div className="home__container">
         <img
+          id="A001"
           alt="Holiday Deals"
           className="home__image"
           src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/HolidayDeals/Desktop/Fuji_TallHero_HolidayDeals_en_US_1x._CB414278668_.jpg"
@@ -14,6 +15,7 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id="A002"
             title="Apple 16' MacBook Pro with Touch Bar, 9th-Gen 8-Core Intel i9 2.4GHz, 32GB RAM, Space Gray, Late 2019"
             price={2999}
             alt="Apple 16' Macbook, Late 2019"
@@ -21,6 +23,7 @@ function Home() {
             rating={4}
           />
           <Product
+            id="A003"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Space Gray (4th Generation)"
             price={949}
             alt="New Apple iPad Pro - Space Gray (4th Generation)"
@@ -31,6 +34,7 @@ function Home() {
 
         <div className="home__row">
           <Product
+            id="A004"
             title="Apple 13' MacBook Pro with Touch Bar, 10th-Generation Quad-Core Intel Core i7, Space Gray (Mid 2020)"
             price={2599}
             alt="Apple 13' Macbook, Mid 2020"
@@ -38,6 +42,7 @@ function Home() {
             rating={5}
           />
           <Product
+            id="A005"
             title="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
             price={1045.94}
             alt="New Apple iMac (21.5-inch, 8GB RAM, 256GB SSD Storage)"
@@ -45,6 +50,7 @@ function Home() {
             rating={4}
           />
           <Product
+            id="A006"
             title="Apple Watch Series 4 (GPS, 44MM) - Space Gray Aluminum Case  "
             price={329.5}
             image="https://m.media-amazon.com/images/I/517IoYaKCmL._AC_UY218_.jpg"
@@ -54,6 +60,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id="A007"
             title="Apple iPhone XS Max, 64GB, Gold - For AT&T (Renewed)"
             price={579.99}
             image="https://m.media-amazon.com/images/I/617AxLYkUkL._AC_UY218_.jpg"

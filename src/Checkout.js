@@ -3,11 +3,10 @@ import "./Checkout.css";
 import Subtotal from "./Subtotal";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
-import Product from "./Product";
 
 function Checkout() {
   const [{ basket }, dispatch] = useStateValue();
-  basket.map((item) => console.log("title:  ", item.title));
+
   return (
     <div className="checkout">
       <div className="checkout__left">
